@@ -1,0 +1,27 @@
+.hero__slides .owl-nav {
+  position: absolute;
+  left: 21%;
+  bottom: 21%;
+  z-index: 3;
+  display: flex;
+}
+
+.hero__slides .owl-prev,
+.hero__slides .owl-next {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 4px solid #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hero__slides .owl-prev {
+  margin-right: 15px;
+}
+
+.hero__slides .owl-nav [class*='owl-'].disabled {
+  border: none !important;
+}
