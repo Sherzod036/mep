@@ -1,4 +1,4 @@
-.hero__slides .owl-nav {
+.slides .owl-nav {
   position: absolute;
   left: 21%;
   bottom: 21%;
@@ -6,8 +6,8 @@
   display: flex;
 }
 
-.hero__slides .owl-prev,
-.hero__slides .owl-next {
+.slides .owl-prev,
+.slides .owl-next {
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -18,10 +18,10 @@
   cursor: pointer;
 }
 
-.hero__slides .owl-prev {
+.slides .owl-prev {
   margin-right: 15px;
 }
 
-.hero__slides .owl-nav [class*='owl-'].disabled {
+.slides .owl-nav [class*='owl-'].disabled {
   border: none !important;
 }
