@@ -1,7 +1,10 @@
 .slides .owl-nav {
   position: absolute;
-  left: 21%;
+  width: 1140px;
+  padding: 0 15px;
+  left: 50%;
   bottom: 21%;
+  transform: translateX(-50%);
   z-index: 3;
   display: flex;
 }

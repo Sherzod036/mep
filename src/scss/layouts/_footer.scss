@@ -1,0 +1,73 @@
+.footer {
+  background: #06274d;
+  padding: 43px 0;
+  &-logo {
+    display: block;
+    margin-bottom: 25px;
+  }
+  &-desc {
+    display: block;
+    width: 200px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+  }
+  &-pages {
+    li {
+      margin-bottom: 20px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      & a {
+        font-weight: 500;
+        color: #fff;
+        transition: 0.3s;
+        &:hover {
+          color: #ff0000;
+        }
+      }
+    }
+  }
+  &-subscribe {
+    &-title {
+      display: block;
+      margin-bottom: 20px;
+      font-weight: 500;
+      color: #fff;
+    }
+    &-items {
+      display: flex;
+      margin-bottom: 50px;
+      & a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-right: 30px;
+        transition: 0.3s;
+        &:last-child {
+          margin-right: 0;
+        }
+        &:hover {
+          background: #fff;
+          & svg path {
+            fill: #06274d;
+          }
+        }
+      }
+    }
+  }
+}
+
+.copy {
+  background: #3c3c3c;
+  padding: 13px 0;
+  &-wrapper {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+}

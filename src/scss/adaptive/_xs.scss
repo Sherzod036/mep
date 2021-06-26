@@ -1,2 +1,11 @@
 @media (max-width: 500px) {
+  .header-logo {
+    flex: 0 0 200px;
+  }
+  .category {
+    height: 300px;
+  }
+  .feedback-title {
+    font-size: 30px;
+  }
 }

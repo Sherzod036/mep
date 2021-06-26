@@ -1,2 +1,41 @@
 @media (max-width: 1200px) {
+  .slides .owl-nav {
+    width: 960px;
+  }
+  .header {
+    padding: 15px 0;
+  }
+  .header-nav {
+    display: none;
+  }
+
+  .bigdesc {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .categories,
+  .facts {
+    padding-bottom: 50px;
+  }
+  .factory {
+    margin-bottom: 50px;
+  }
+  .bigdesc-image {
+    display: none;
+  }
+  .categories-left {
+    margin-top: 0;
+  }
+  .factory-image {
+    display: none;
+  }
+  .factory-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .factory-content {
+    position: static;
+  }
 }
