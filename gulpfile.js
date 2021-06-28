@@ -39,7 +39,10 @@ function styles() {
 }
 
 function bmjs() {
-  return src(['node_modules/owl.carousel/dist/owl.carousel.js'])
+  return src([
+    'node_modules/gsap/dist/gsap.js',
+    'node_modules/owl.carousel/dist/owl.carousel.js'
+  ])
     .pipe(concat('bundle.min.js'))
     .pipe(uglify())
     .pipe(dest('build/js'))
