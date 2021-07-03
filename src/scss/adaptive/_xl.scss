@@ -17,8 +17,14 @@
   .facts {
     padding-bottom: 50px;
   }
-  .factory {
+  .factory,
+  .mission {
     margin-bottom: 50px;
+  }
+  .page-about-content {
+    padding: 50px 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .bigdesc-image {
     display: none;
@@ -37,5 +43,25 @@
   }
   .factory-content {
     position: static;
+  }
+  .banner {
+    margin-top: 75px;
+  }
+  .page-about-main {
+    height: 400px;
+    margin-bottom: 50px;
+  }
+  .mission-image {
+    display: none;
+  }
+  .about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .about-right-image {
+    display: none;
+  }
+  .video-title {
+    margin-top: 50px;
   }
 }

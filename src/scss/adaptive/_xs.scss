@@ -8,4 +8,35 @@
   .feedback-title {
     font-size: 30px;
   }
+  .banner {
+    margin-top: 65px;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .banner-title::before {
+    bottom: 7px;
+  }
+  .langs {
+    width: 55px;
+  }
+  .lang {
+    padding-left: 10px;
+  }
+  .lang-current {
+    padding-left: 10px;
+  }
+  .lang-dropdown {
+    width: 55px;
+  }
+  .page-about-content .d-flex {
+    flex-wrap: wrap;
+  }
+  .page-about-title,
+  .mission-title {
+    font-size: 28px;
+  }
+  .page-about-main {
+    height: 300px;
+  }
 }

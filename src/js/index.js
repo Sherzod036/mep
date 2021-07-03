@@ -23,19 +23,19 @@ $(function () {
 })
 
 function generate_dots() {
-  var wrapper = document.querySelector('.dot__device')
-  var dot_template = '<div class="dot_wrapper"><div class="dot"></div></div>'
+  let wrapper = document.querySelector('.dot__device')
+  let dot_template = '<div class="dot_wrapper"><div class="dot"></div></div>'
   wrapper.innerHTML = ''
-  for (var j = 0; j < 100; j++) {
+  for (let j = 0; j < 100; j++) {
     wrapper.innerHTML += dot_template
   }
 }
 
 function set_dots() {
-  var dots = document.querySelectorAll('.dot')
-  var dot__wrapper = document.querySelectorAll('.dot_wrapper')
-  var circlePoints = 360 / dot__wrapper.length
-  for (var i = 0; i < dot__wrapper.length; i++) {
+  let dots = document.querySelectorAll('.dot')
+  let dot__wrapper = document.querySelectorAll('.dot_wrapper')
+  let circlePoints = 360 / dot__wrapper.length
+  for (let i = 0; i < dot__wrapper.length; i++) {
     TweenMax.set(dot__wrapper[i], { rotation: circlePoints * i })
   }
 

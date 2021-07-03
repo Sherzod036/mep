@@ -26,4 +26,12 @@
     display: flex;
     justify-content: center;
   }
+  .page-about-desc {
+    margin-bottom: 25px;
+  }
+  .page-about-desc,
+  .page-about-list li,
+  .mission-desc {
+    font-size: 16px;
+  }
 }
