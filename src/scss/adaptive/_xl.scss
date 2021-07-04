@@ -18,7 +18,11 @@
     padding-bottom: 50px;
   }
   .factory,
-  .mission {
+  .mission,
+  .our-numbers,
+  .tasks,
+  .standart,
+  .slog {
     margin-bottom: 50px;
   }
   .page-about-content {
@@ -58,10 +62,17 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .about-right-image {
-    display: none;
-  }
   .video-title {
-    margin-top: 50px;
+    margin-top: 80px;
+  }
+  .about__inner::before {
+    width: 400px;
+    height: 400px;
+  }
+  .about__image {
+    width: 300px;
+  }
+  .partners {
+    margin-bottom: 15px;
   }
 }

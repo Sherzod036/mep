@@ -12,14 +12,6 @@ $(function () {
     smartSpeed: 1000,
     mouseDrag: false
   })
-
-  $('.partners-slider').owlCarousel({
-    autoplay: true,
-    loop: true,
-    autoplayTimeout: 5000,
-    margin: 20,
-    autoplayHoverPause: true
-  })
 })
 
 function generate_dots() {

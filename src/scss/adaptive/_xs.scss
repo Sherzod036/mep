@@ -33,10 +33,31 @@
     flex-wrap: wrap;
   }
   .page-about-title,
-  .mission-title {
+  .mission-title,
+  .video-title,
+  .our-numbers-title,
+  .tasks__title,
+  .standart__title,
+  .partners__title {
     font-size: 28px;
   }
   .page-about-main {
     height: 300px;
+  }
+  .about__image {
+    width: 250px;
+  }
+  .about__inner::before {
+    width: 300px;
+    height: 300px;
+  }
+  .video-title {
+    margin-top: 50px;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .partners_wrap {
+    top: 80px;
   }
 }
