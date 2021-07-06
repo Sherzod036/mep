@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEP |</title>
+    <link rel="icon" href="img/fav.png" type="image/png" />
+    <link rel="stylesheet" href="css/bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    @@include('templates/_header-page.html') @@include('templates/_banner.html')
+
+    <div class="singleNews">
+      <div class="container">
+        <button class="back" onclick="window.history.back()">
+          <svg
+            width="6"
+            height="11"
+            viewBox="0 0 6 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 5.55068L5.04373 0.506958L5.74985 1.21308L1.41224 5.55068L5.74985 9.88829L5.04373 10.5944L0 5.55068Z"
+              fill="#999999"
+            />
+          </svg>
+          Назад
+        </button>
+        <div class="singleNews_image">
+          <img src="img/news.jpg" alt="" />
+        </div>
+        <span class="singleNews_date">05.03.2021</span>
+        <span class="singleNews_title">Процесс производства</span>
+        <p class="singleNews_desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+    </div>
+
+    @@include('templates/_footer.html')
+
+    <script src="js/jQ.js"></script>
+    <script src="js/bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
